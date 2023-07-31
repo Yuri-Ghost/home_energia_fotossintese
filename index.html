@@ -6,12 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energia Fotossintética</title>
     <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Kite+One&family=Poppins:wght@300;400;500;700&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
       <header class="cabecalho">
         <div class="container">
-        <span class="cabecalho_menu-hamburguer container--imagem"></span>
+          <input type="checkbox" id="menu" class="container__botao">
+          <label for="menu">
+          <span class="cabecalho_menu-hamburguer container--imagem"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Combustão</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Energias Renováveis</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Plástico menos poluente</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Energia Solar</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Combustíveis Fósseis</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Energia Elétrica (Som)</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Energia Elétrica (Fotossíntese)</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Energia Elétrica (Lixo)</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Jogos</a></li>
+            <li class="lista-menu__item"><a href="#" class="lista-menu__link">Custo de Energia Limpa</a></li>
+        </ul>
         <img src="./img/image 29.png" alt="Logo" class="container--imagem">
       </div>
         <div class="container">
@@ -20,5 +39,10 @@
         <a href="#"><img class="container--imagem" src="./img/Usuario.png" alt="Meu perfil"></a>
         </div>
       </header>
-</body>
+      <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Faça uma rápida leitura sobre como adquirir Energia Elétrica através da Fotossíntese.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Funcionamento do método"
+      </section>
+    </body>
 </html>
