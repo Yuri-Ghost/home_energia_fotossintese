@@ -29,5 +29,9 @@ body, html {
     margin-top: 2rem; 
   }
   
-
- 
+  .vídeo__titulo {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+  

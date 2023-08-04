@@ -28,3 +28,7 @@
     font-size: 14px;
     font-weight: 700;
 }
+.tópicos__item a:hover {
+    color: white;
+}
+
