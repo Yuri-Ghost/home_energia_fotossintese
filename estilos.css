@@ -9,6 +9,7 @@
     --cor-de-fundo: linear-gradient(to bottom, #228212, #091E06, #0E9914);
     --preto: #000000;
     --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
 }
 
 body {
@@ -35,3 +36,6 @@ body, html {
     margin-bottom: 1em;
   }
   
+  .opções__item {
+    color: white;
+  }
